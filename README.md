@@ -1,4 +1,4 @@
-# 💤⏰ Lehaam | لِهام
+# Lehaam | لِهام
 A simple and smart Python app to help you optimize your sleep and nap schedules.  
 whether you're planning your nightly sleep or a quick daytime nap, this app calculates the best times to sleep and wake up for maximum rest and productivity.
 
@@ -8,7 +8,7 @@ whether you're planning your nightly sleep or a quick daytime nap, this app calc
 
 ---
 
-## ✨ Features
+## Features
 - ⏱️ calculates ideal sleep and wake-up times based on sleep cycles  
 - 🌙 supports both nighttime sleep and daytime naps ☀️  
 - 💻 Simple CLI interface for local use  
@@ -18,7 +18,7 @@ whether you're planning your nightly sleep or a quick daytime nap, this app calc
 
 ---
 
-## ⚙️ How It Works ❓
+## How It Works ❓
 sleep happens in cycles of approximately 90 minutes. waking up between these cycles (rather than in the middle of one) helps you feel refreshed and energized.  
 **Lehaam** calculates optimal times to fall asleep and wake up for better rest.
 - 90-minute sleep cycles
@@ -27,7 +27,7 @@ sleep happens in cycles of approximately 90 minutes. waking up between these cyc
 
 ---
 
-## 💻 Installation
+## Installation
 ### 🤖 Telegram Bot
  click on [lehaambot](https://t.me/lehaambot) or go to the telegram and search for `lehaambot` to start using it instantly!  
  don't worry, it's user-friendly =)
@@ -52,7 +52,7 @@ python apps/cli_app.py
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 ```
 Lehaam/
 ├── apps/
@@ -78,7 +78,7 @@ Lehaam/
 
 ---
 
-## 🙏 Contributions
+## Contributions
 **feedback, ideas, and pull requests are welcome!**  
 **feel free to open an issue or contribute.**
 
@@ -97,7 +97,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🌟 Support
+## Support
 if you find Lehaam helpful, please consider :
 - ⭐ starring the repository
 - 🐛 reporting bugs
@@ -105,13 +105,13 @@ if you find Lehaam helpful, please consider :
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.  
 **Copyright © 2025 [HiDMadMad](https://github.com/HiDMadMad)**
 
 ---
 
-## 📞 Contact
+## Contact
 - Telegram : [@HiDMadMad](https://t.me/HiDMadMad)
 - LinkedIn : [mohammad-reza-rahmanian](https://www.linkedin.com/in/mohammad-reza-rahmanian)
 - Email : [madmadpv@gmail.com](mailto:madmadpv@gmail.com)
