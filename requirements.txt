@@ -1,5 +1,4 @@
-paramiko==4.0.0
-pyTelegramBotAPI==4.29.1
+pyinstaller==6.21.0
 telebot==0.0.5
-telegram==0.0.1
-pyinstaller==6.17.0
+paramiko==5.0.0
+pyTelegramBotAPI==4.34.0

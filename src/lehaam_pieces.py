@@ -3,12 +3,12 @@ import os
 import platform
 
 try:
-    from . import cli_messages as msg
+    from cli import cli_messages as msg
 except Exception:
     import sys
     from pathlib import Path
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # add project root
-    import libs.cli_messages as msg
+    import cli.cli_messages as msg
 
 
 """

@@ -11,10 +11,10 @@ import logging
 import telebot
 from telebot import types
 
-import libs.lehaam_pieces as lp
-from libs.bot_messages import get_message, format_time_result
-from libs.user_storage import load_user_data, get_user_data, set_user_data
-from libs.bot_handlers import BotHandlers
+from bot_messages import get_message, format_time_result
+from user_storage import load_user_data, get_user_data, set_user_data
+from bot_handlers import BotHandlers
+import lehaam_pieces as lp
 
 # setup logging
 logging.basicConfig(

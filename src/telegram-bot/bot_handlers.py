@@ -4,8 +4,8 @@ separated handlers for better code organization
 """
 import datetime as dt
 import logging
-from libs.bot_messages import get_message, format_time_result
-import libs.lehaam_pieces as lp
+from telegram.bot_messages import get_message, format_time_result
+import lehaam_pieces as lp
 
 logger = logging.getLogger(__name__)
 
@@ -149,7 +149,7 @@ class BotHandlers:
                 return True
             
             elif call.data == "sleep_at":
-                from apps.telegram_bot import WAITING_SLEEP_TIME
+                from telegram_bot import WAITING_SLEEP_TIME
                 self.user_states[user_id] = WAITING_SLEEP_TIME
                 
                 self.bot.edit_message_text(
@@ -163,7 +163,7 @@ class BotHandlers:
                 return True
             
             elif call.data == "wake_at":
-                from apps.telegram_bot import WAITING_WAKE_TIME
+                from telegram_bot import WAITING_WAKE_TIME
                 self.user_states[user_id] = WAITING_WAKE_TIME
                 
                 self.bot.edit_message_text(
@@ -237,7 +237,7 @@ class BotHandlers:
                 return True
             
             elif call.data == "settings_timezone":
-                from apps.telegram_bot import WAITING_TIMEZONE
+                from telegram_bot import WAITING_TIMEZONE
                 
                 current_offset = get_offset_func(user_id)
                 set_state_func(user_id, WAITING_TIMEZONE)
@@ -260,6 +260,6 @@ class BotHandlers:
     @staticmethod
     def _get_time_with_offset(offset_str:str) -> dt.datetime:
         """helper to get current time with offset"""
-        from apps.telegram_bot import get_current_time_with_offset
+        from telegram_bot import get_current_time_with_offset
         return get_current_time_with_offset(offset_str)
 #MadMad_265

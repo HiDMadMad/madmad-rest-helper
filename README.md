@@ -43,11 +43,11 @@ sleep happens in cycles of approximately 90 minutes. waking up between these cyc
 git clone https://github.com/HiDMadMad/Lehaam.git
 cd Lehaam
 
-# install dependencies (if any)
+# install dependencies
 pip install -r requirements.txt
 
 # run the CLI app
-python apps/cli_app.py
+python src/cli/cli_app.py
 ```
 
 ---
@@ -55,25 +55,32 @@ python apps/cli_app.py
 ## Project Structure
 ```
 Lehaam/
-├── apps/
-│   ├── cli_app.py          # CLI application
-│   └── telegram_bot.py     # telegram bot
 ├── assets/
-│   ├── img.png             # application icon's png
-│   └── lehaam_icon.ico     # application icon
-├── libs/
-│   ├── cli_messages.py     # CLI UI messages and text
-│   ├── bot_messages.py     # bot UI messages and text
-│   └── lehaam_pieces.py    # core logic and calculations
-├── updaters
-|   ├── update_cli_exe_app.py
-|   └── update_telegram_app_on_the_server.py
-|
-├── .gitignore              # git ignore file
-├── Lehaam-v1.0.0.exe       # compiled executable
-├── LICENSE                 # MIT License
-├── README.md               # this file
-└── requirements.txt        # python dependencies
+│   ├── img.png                     # application icon (png)
+│   └── lehaam_icon.ico             # application icon (ico)
+│
+├── src/
+│   ├── cli/
+│   │   ├── __init__.py
+│   │   ├── cli_app.py              # CLI application
+│   │   ├── cli_messages.py         # CLI UI messages and text
+│   │   └── update_cli_exe_app.py   # CLI .exe updater
+│   │
+│   ├── telegram-bot/
+│   │   ├── __init__.py
+│   │   ├── telegram_bot.py         # telegram bot
+│   │   ├── bot_messages.py         # bot UI messages and text
+│   │   ├── bot_handlers.py         # bot handlers
+│   │   ├── user_storage.py         # lehaam telegram users
+│   │   └── update_telegram_app_on_server.py    # server updater
+│   │
+│   ├── __init__.py
+│   └── lehaam_pieces.py            # core logic and calculations
+│
+├── .gitignore
+├── LICENSE
+├── README.md                       # this file
+└── requirements.txt                # dependencies
 ```
 
 ---
@@ -90,7 +97,7 @@ Lehaam/
 5. ...
 #### development setup :
 ```bash
-git clone https://github.com/HiDMadMad/Lehaam.git
+git clone https://github.com/HiDMadMad/Lehaam
 cd Lehaam
 pip install -r requirements.txt
 ```
@@ -112,14 +119,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ## Contact
-- Telegram : [@HiDMadMad](https://t.me/HiDMadMad)
+- Telegram : [@OxMadMad](OxMadMad.t.me)
 - LinkedIn : [mohammad-reza-rahmanian](https://www.linkedin.com/in/mohammad-reza-rahmanian)
 - Email : [madmadpv@gmail.com](mailto:madmadpv@gmail.com)
 
 ---
 
 <div align="center">
-made with ❤️ and ☕ for better sleep
+made with ❤️ for better sleep
 </div>
 
 ---
