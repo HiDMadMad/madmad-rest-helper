@@ -4,7 +4,7 @@ separated handlers for better code organization
 """
 import datetime as dt
 import logging
-from telegram.bot_messages import get_message, format_time_result
+from bot_messages import get_message, format_time_result
 import lehaam_pieces as lp
 
 logger = logging.getLogger(__name__)
