@@ -2,9 +2,9 @@
 A simple and smart Python app to help you optimize your sleep and nap schedules.  
 whether you're planning your nightly sleep or a quick daytime nap, this app calculates the best times to sleep and wake up for maximum rest and productivity.
 
+[![Version](https://img.shields.io/badge/version-1.0.0-green)](https://github.com/HiDMadMad/Lehaam/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/)
-[![Version](https://img.shields.io/badge/version-1.0.0-green)](https://github.com/HiDMadMad/Lehaam/releases)
 
 ---
 
