@@ -71,8 +71,7 @@ Lehaam/
 │   │   ├── telegram_bot.py         # telegram bot
 │   │   ├── bot_messages.py         # bot UI messages and text
 │   │   ├── bot_handlers.py         # bot handlers
-│   │   ├── user_storage.py         # lehaam telegram users
-│   │   └── update_telegram_app_on_server.py    # server updater
+│   │   └── user_storage.py         # lehaam telegram users
 │   │
 │   ├── __init__.py
 │   └── lehaam_pieces.py            # core logic and calculations
